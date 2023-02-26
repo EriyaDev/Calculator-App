@@ -87,3 +87,5 @@ function init(){
 }
 
 init();
+
+alert ("Selamat Datang di Calculator App punya El");
