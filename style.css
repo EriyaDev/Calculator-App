@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+html{
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+*,
+* ::before,
+* ::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(45deg,#5f2c82, #49a09d);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 15px;
+    box-shadow: 0 40px 30px rgba(35, 35, 35, .1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, .3);
+    border: 1px solid rgba(255, 255, 255, .1);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, .4);
+    color: #252525;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 35px;
+    overflow: auto;
+    text-align: right;
+    width: 326px;
+}
+
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-button{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, .65);
+    color: #252525;
+    font-family: 'Poppins', sans-serif;
+    flex-basis: 20%;
+    height: 65px;
+    border-radius: 15px;
+    border: none;
+    font-size: 25px;
+    transition: .3s;
+}
+
+.calc-button:hover{
+    background: rgba(255, 255, 255, .9);
+    transition: .3s;
+}
+.calc-button:active{
+    background: rgba(202, 214, 255, 0.8);
+}
+
+.calc-button:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(4, 48, 190, 0.8);
+    border-radius: 15px;
+    color: #fff;
+    transition: .3s;
+}
+
+.calc-button:last-child:hover{
+    background:  rgba(4, 36, 141, 0.8);
+    transition: .3s;
+}
+
+.double{
+    flex-basis: 47%;
+}
+
+.triple{
+    flex-basis: 73%;
+}
